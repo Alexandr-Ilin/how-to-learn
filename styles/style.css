@@ -10,9 +10,12 @@
 }
 
 .header {
+  border: 1px dashed green;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
@@ -20,7 +23,38 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0px;
 }
+
+.header__title {
+
+}
+
+.heafer__subtitle {
+
+}
+
+.header__link {
+
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  background-image: url(../images/header-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+
+}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -28,4 +62,18 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.logo {
+
+}
+
+.logo_place_header {
+  width: 183px;
+  height: 32px;
+  background-image: url(../images/logo_place_header.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
 }
