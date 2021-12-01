@@ -9,10 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-h1, h2, h3, p{
-  margin-block: 0;
-}
-
 /*header + logo*/
 .header {
   background-color: #f2f2f2;
@@ -39,6 +35,7 @@ h1, h2, h3, p{
   font-size: 102px;
   font-weight: bold;
   width: 730px;
+  margin-block: 0;
   margin: 0 0 0 64px;
   z-index: 1;
 }
@@ -51,6 +48,7 @@ h1, h2, h3, p{
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin-block: 0;
   margin: 0;
   z-index: 1;
 }
@@ -102,6 +100,7 @@ h1, h2, h3, p{
 
 .two-columns__brief {
   width: 175px;
+  margin-block: 0;
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -121,7 +120,8 @@ h1, h2, h3, p{
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 0 0 30px;
+  margin-block: 0;
+  margin-bottom: 30px;
 }
 
 .two-columns__paragraph:last-of-type {
@@ -146,6 +146,7 @@ h1, h2, h3, p{
   font-weight: bold;
   width: 60%;
   text-align: center;
+  margin-block: 0;
   margin: 0;
 }
 
@@ -159,6 +160,7 @@ h1, h2, h3, p{
   font-weight: normal;
   width: 60%;
   text-align: center;
+  margin-block: 0;
   margin: 0;
 }
 
@@ -168,6 +170,7 @@ h1, h2, h3, p{
 
 .table {
   width: 1100px;
+  margin-block: 0;
   margin: 0;
   list-style-type: none;
   display: flex;
@@ -191,6 +194,7 @@ h1, h2, h3, p{
 }
 
 .table__heading {
+  margin-block: 0;
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -201,6 +205,7 @@ h1, h2, h3, p{
   line-height: 1.2;
   font-size: 18px;
   font-style: normal;
+  margin-block: 0;
   margin: 20px 0 0;
 }
 
@@ -224,6 +229,7 @@ h1, h2, h3, p{
   font-weight: bold;
   width: 648px;
   text-align: center;
+  margin-block: 0;
   margin: 100px auto 70px;
 }
 
@@ -231,6 +237,7 @@ h1, h2, h3, p{
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  margin-block: 0;
   margin: 0;
 }
 
@@ -338,6 +345,7 @@ h1, h2, h3, p{
 }
 
 .footer__autor {
+  margin-block: 0;
   margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
@@ -348,10 +356,12 @@ h1, h2, h3, p{
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  margin-block: 0;
   margin: 0;
 }
 
 .footer__column-links {
+  margin-block: 0;
   margin: 20px 0 16px;
   list-style-type: none;
   padding: 0;
