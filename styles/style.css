@@ -215,6 +215,39 @@
   text-align: center;
 }
 
+/*video*/
+.video {
+  padding-top: 100px;
+  height: 439px;
+}
+
+.video__iframes {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+ }
+
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin-right: 20px;
+
+}
+
+.video__iframe:last-child{
+  margin: 0;
+}
+
+/*oakley*/
+
+.oakley {
+  padding-top: 160px;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
 /*digits*/
 
 .digits {
