@@ -1,16 +1,74 @@
+/*page*/
 @import url(blocks/page/page.css);
+
+/*header*/
 @import url(blocks/header/header.css);
 @import url(blocks/header/__square-pic/header__square-pic.css);
 @import url(blocks/header/__title/header__title.css);
 @import url(blocks/header/__subtitle/header__subtitle.css);
 @import url(blocks/header/__link/header__link.css);
 @import url(blocks/header/__main-illustration/header__main-illustration.css);
+
+/*logo*/
 @import url(blocks/logo/logo.css);
 @import url(blocks/logo/_place/logo_place_header.css);
 @import url(blocks/logo/_place/logo_place_footer.css);
 
+/*description*/
+@import url(blocks/description/description.css);
+/*two-columns*/
+@import url(blocks/two-columns/two-columns.css);
+@import url(blocks/two-columns/__brief/two-columns__brief.css);
+@import url(blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(blocks/two-columns/__span-accent/two-columns__span-accent.css);
+/*techniqyes*/
+@import url(blocks/techniques/techniques.css);
+@import url(blocks/techniques/_centred-block/techniques_centred-block.css);
+/*cards*/
+@import url(blocks/cards/cards.css);
+@import url(blocks/cards/__item/cards__item.css);
+@import url(blocks/cards/__image/cards__image.css);
+@import url(blocks/cards/__title/cards__title.css);
+@import url(blocks/cards/__description/cards__description.css);
+/*video*/
+@import url(blocks/video/video.css);
+@import url(blocks/video/__iframes/video__iframes.css);
+@import url(blocks/video/__iframe/video__iframe.css);
+/*oakley*/
+@import url(blocks/oakley/oakley.css);
+/*feynman*/
+@import url(blocks/feynman/feynman.css);
+@import url(blocks/feynman/__title/feynman__title.css);
+@import url(blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(blocks/feynman/__link/feynman__link.css);
+
+/*digits*/
+@import url(blocks/digits/digits.css);
+/*section-title*/
+@import url(blocks/section-title/section-title.css);
+@import url(blocks/section-title/_theme/section-title_theme_light.css);
+/*section-subtitle*/
+@import url(blocks/section-subtitle/section-subtitle.css);
+@import url(blocks/section-subtitle/_theme/section-subtitle_theme_light.css);
+/*table*/
+@import url(blocks/table/table.css);
+@import url(blocks/table/_theme/table_theme_light.css);
+@import url(blocks/table/__cell/table__cell.css);
+@import url(blocks/table/__cell/_theme/table__cell_theme_light.css);
+@import url(blocks/table/__heading/table__heading.css);
+@import url(blocks/table/__text/table__text.css);
+/*khan*/
+@import url(blocks/khan/khan.css);
+@import url(blocks/khan/__container/khan__container.css);
+@import url(blocks/khan/__autor/khan__autor.css);
+@import url(blocks/khan/__title/khan__title.css);
+@import url(blocks/khan/__quote/khan__quote.css);
+@import url(blocks/khan/__quote-autor/khan__quote-autor.css);
+@import url(blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 
 
+/*footer*/
 @import url(blocks/footer/footer.css);
 @import url(blocks/footer/__autor/footer__autor.css);
 @import url(blocks/footer/__column/footer__column.css);
@@ -25,9 +83,7 @@
   }
 }
 
-.rotation{
-  animation: rotation 20s linear normal infinite;
-}
+
 
 [class$=link]:hover {
   opacity: .8;
@@ -36,328 +92,11 @@
 
 
 
-/*header + logo*/
-/*decsription*/
-
-.description {
-  padding-top: 100px;
-  display: flex;
-  justify-content: center;
-}
-
-.two-columns {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-}
-
-.two-columns__brief {
-  width: 175px;
-  margin-block: 0;
-  margin: 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2F80ED;
-}
-
-.two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.two-columns__paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin-block: 0;
-  margin-bottom: 30px;
-}
-
-.two-columns__paragraph:last-of-type {
-  margin: 0;
-}
-
-.two-columns__span-accent {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-/*techniqyes*/
-
-.techniques {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 100px;
-  width: 80%;
-}
-
-.content__techniques {
-  margin: auto;
-}
-
-.cards {
-  width: 920px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.cards__item {
-  width: 240px;
-  margin-right: 100px;
-}
-
-.cards__item:nth-of-type(3) {
-  margin-right: 0;
-}
-
-.cards__image {
-  width: 160px;
-  height: 160px;
-  margin: 60px 40px 43px;
-  border-radius: 50%;
-}
-
-.cards__title {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-bottom: 16px;
-  text-align: center;
-
-}
-
-.cards__description {
-  line-height: 23px;
-  font-size: 18px;
-  font-weight: normal;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  text-align: center;
-}
-
-/*video*/
-.video {
-  padding-top: 100px;
-  height: 439px;
-}
-
-.video__iframes {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
- }
 
 
-.video__iframe {
-  width: 515px;
-  height: 316px;
-  margin-right: 20px;
-  border: 0;
-
-}
-
-.video__iframe:last-child{
-  margin: 0;
-}
-
-/*oakley*/
-
-.oakley {
-  padding-top: 160px;
-  display: flex;
-  justify-content: center;
-  background-color: #f2f2f2;
-}
-
-/*digits*/
-
-.digits {
-  padding: 100px 0;
-}
-
-.section-title {
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  width: 60%;
-  text-align: center;
-  margin-block: 0;
-  margin: 0;
-}
-
-.section-title_theme_light {
-  margin: 0 auto 20px;
-}
-
-.section-subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 60%;
-  text-align: center;
-  margin-block: 0;
-  margin: 0;
-}
-
-.section-subtitle_theme_light {
-  margin: 0 auto;
-}
-
-.table {
-  width: 1100px;
-  margin-block: 0;
-  margin: 0;
-  list-style-type: none;
-  display: flex;
-  padding: 0;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.table_theme_light {
-  margin: 0 auto;
-}
-
-.table__cell {
-  display: flex;
-  flex-direction: column;
-}
-
-.table__cell_theme_light{
-  width: 250px;
-  margin-top: 60px;
-}
-
-.table__heading {
-  margin-block: 0;
-  margin: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.table__text {
-  line-height: 1.2;
-  font-size: 18px;
-  font-style: normal;
-  margin-block: 0;
-  margin: 20px 0 0;
-}
 
 
-/*feynman*/
 
-.feynman {
-  min-height: 890px;
-  background: #f2f2f2 url(../images/feynman.png) no-repeat;
-  background-size: 863px 637px;
-  background-position: left bottom;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.feynman__title {
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-  width: 648px;
-  text-align: center;
-  margin-block: 0;
-  margin: 100px auto 70px;
-}
-
-.feynman__subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  margin-block: 0;
-  margin: 0;
-}
-
-.feynman__link {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  color: #2f80ed;
-  text-decoration: none;
-  position: absolute;
-  right: 48px;
-  top: 50%;
-  margin: 0;
-}
-
-/*.feynman__link:hover {
-  opacity: .8;
-  transition: opacity .5s linear;
-}*/
-
-/*khan*/
-
-.khan{
-  background-color: #f2f2f2;
-  padding-top: 105px;
-}
-
-.khan__container {
-  width: 80%;
-  margin: auto;
-}
-
-.khan__autor {
-  line-height: 42px;
-  font-size: 30px;
-  font-weight: normal;
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
-.khan__title {
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-bottom: 50px;
-}
-
-.khan__quote {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 790px;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-bottom: 36px;
-}
-
-.khan__quote-autor {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-bottom: 10px;
-}
-
-.khan__quote-author-subline {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: normal;
-  margin-block-start: 0;
-  margin-inline-end: 0;
-  margin-bottom: 68px;
-}
 
 .khan__book-container {
   display: flex;
