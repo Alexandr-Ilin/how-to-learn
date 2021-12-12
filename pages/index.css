@@ -4,6 +4,9 @@
 /*page*/
 @import url(../blocks/page/page.css);
 
+/*content*/
+@import url(../blocks/content/__techniques/content__techniques.css);
+
 /*rotation*/
 @import url(../blocks/rotation/rotation.css);
 
@@ -32,7 +35,6 @@
 
 /*techniqyes*/
 @import url(../blocks/techniques/techniques.css);
-@import url(../blocks/techniques/_centred-block/techniques_centred-block.css);
 
 /*cards*/
 @import url(../blocks/cards/cards.css);
@@ -109,14 +111,6 @@
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
-@import url(../blocks/footer/__column/_content/footer__column_content_info.css);
-@import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 
-.khan__book-pic2 {
-  width: 620px;
-  height: 608px;
-  margin-right: 48px;
-  overflow: hidden;
-}
