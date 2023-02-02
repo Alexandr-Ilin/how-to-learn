@@ -1,4 +1,4 @@
-[Проект на GitHub Pages](https://alexandr-ilin.github.io/how-to-learn/index.html "Учебная работа №3")
+[Открыть проект в браузере](https://alexandr-ilin.github.io/how-to-learn/index.html "Учебная работа №3")
 ### Проектная работа №2.
 
 **Название:**  
